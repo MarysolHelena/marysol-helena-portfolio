@@ -2,7 +2,7 @@ function typeWrite(elemento) {
   const textoArray = elemento.textContent.split(''); // Use textContent em vez de innerHTML
   elemento.textContent = ''; // Use textContent em vez de innerHTML
   textoArray.forEach((letra, i) => {
-      setTimeout(() => elemento.textContent += letra, 110 * i); // Use textContent em vez de innerHTML
+      setTimeout(() => elemento.textContent += letra, 120 * i); // Use textContent em vez de innerHTML
   });
 }
 
